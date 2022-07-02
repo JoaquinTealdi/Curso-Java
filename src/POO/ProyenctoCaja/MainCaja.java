@@ -1,4 +1,4 @@
-package ProyenctoCaja;
+package POO.ProyenctoCaja;
 
 public class MainCaja {
     public static void main(String[] args) {

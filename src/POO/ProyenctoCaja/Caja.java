@@ -1,4 +1,4 @@
-package ProyenctoCaja;
+package POO.ProyenctoCaja;
 
 public class Caja {
     //atributos de la clase
@@ -6,7 +6,7 @@ public class Caja {
     int alto;
     int profundo;
 
-    //constructor en 0
+    //constructor por defecto
     public Caja(){}
 
     //constructor con argumentos
