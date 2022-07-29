@@ -9,7 +9,9 @@ public class Empleado extends Persona {
     private static int contadorempleado;
 
     public Empleado(String nombre, char genero, int edad, String direccion, double sueldo){
+        //llamamos al constructor de la clase padre para evitar volver a crear dichos atributos ya creados
         super(nombre,genero, edad, direccion);
+        //utilizamos la variable estática para incrementar por objeto, el id empleado
         this.idEmpleado = ++Empleado.contadorempleado;
         this.sueldo = sueldo;
     }

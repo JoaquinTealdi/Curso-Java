@@ -9,7 +9,7 @@ public class arrayss {
 
         //defino
         int[] edades = new int[3];
-        //definir y llenar(otra forma)
+        //definir y llenar(otra forma) llamada sintaxis resumida
         int[] edades1 = {3,12,6,7};
 
         //asigno un valor

@@ -1,4 +1,4 @@
-package Variables;
+package variables;
 
 public class Caracteres_especiales {
     public static void main(String[] args) {

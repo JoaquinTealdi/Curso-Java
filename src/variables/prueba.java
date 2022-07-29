@@ -1,7 +1,5 @@
-package Variables;
+package variables;
 
-
-import java.util.Arrays;
 
 public class prueba{
     public static void main(String[] args) {

@@ -1,4 +1,4 @@
-package Variables;
+package variables;
 //libreria para usar JOptionpane
 import javax.swing.*;
 

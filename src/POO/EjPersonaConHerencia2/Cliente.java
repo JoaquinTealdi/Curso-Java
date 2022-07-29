@@ -7,9 +7,13 @@ public class Cliente extends Persona {
     private Boolean vip;
     private static int contadorId;
 
+
     public Cliente(String nombre, char genero, int edad, String direccion, boolean vip){
+        //llamamos al constructor de la clase padre para evitar volver a crear dichos atributos ya creados
         super(nombre,genero, edad, direccion);
+        //utilizamos la variable estática para incrementar por objeto, el id cliente
         this.idCliente = ++Cliente.contadorId;
+        //por cada objeto toma la fecha actual
         this.fechaRegistro = new Date();
         this.vip = vip;
     }

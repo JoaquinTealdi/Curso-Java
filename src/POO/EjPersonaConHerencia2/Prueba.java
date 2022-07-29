@@ -16,6 +16,11 @@ public class Prueba {
         System.out.println("Los datos de los empleados son: ");
         System.out.println(emp1.toString());
         System.out.println(emp2.toString());
+        /*
+        Otra forma de mostrar
+        System.out.println("Los datos de los clientes son:" + c1);
+         */
+
 
 
 

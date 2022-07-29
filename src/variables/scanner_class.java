@@ -1,4 +1,4 @@
-package Variables;
+package variables;
 
 import java.util.Scanner; //librería requerida para utilizar la clase scanner
 

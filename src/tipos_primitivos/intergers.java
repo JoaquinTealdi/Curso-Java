@@ -1,4 +1,4 @@
-package Tipos_primitivos;
+package tipos_primitivos;
 
 public class intergers {
 

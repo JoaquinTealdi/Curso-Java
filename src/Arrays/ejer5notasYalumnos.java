@@ -34,6 +34,8 @@ public class ejer5notasYalumnos {
                 resultado[i] = "notable";
             }else if(notas [i] >= 9 && notas [i] <= 10) {
                 resultado[i] = "sobresaliente";
+            }else{
+                resultado[i] = "Nota inexistente";
             }
             System.out.println("ingrese el nombre del alumno");
             nombres [i] = entrada.next();

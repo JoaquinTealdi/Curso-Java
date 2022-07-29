@@ -1,4 +1,4 @@
-package Variables;
+package variables;
 
 public class Definir_variables {
     public static void main(String[] args) {
